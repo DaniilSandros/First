@@ -1,0 +1,142 @@
+
+header #main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(241, 241, 241);
+    
+}
+
+header #TextOne p {
+    font-size: 30px;  
+}
+
+header #TextTwo ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+ 
+}
+header #TextTwo ul li{
+    font-size: 20px;
+    height: 40px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.word{
+    color: darkorange;
+}
+
+header img{
+    padding: 0px 10px;
+    height: 20px;
+    width: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+nav div{
+    height: 100px;
+    
+}
+.InputOne{
+    
+    height: 34px;
+    width: 400px;
+    
+    
+}
+
+.InputTwo{
+    height: 40px;
+    width: 200px;
+    position: relative;
+    top: 34px;
+    right: 110px;    
+}
+nav p{
+    font-size: 30px;
+    margin: 0px;
+}
+
+
+
+
+
+main #FirstPost{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main #SecondPost{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:300px;
+}
+main img{
+    height: 150px;
+    width: 190px;
+
+}
+
+
+.PostOne{
+    box-shadow: 0 0 8px red;
+    width: 200px;
+    height: 200px;
+}
+.PostOne img{
+    padding: 5px;
+}
+
+.LineOne p{
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+}
+
+.LineOne img{
+    height: 20px;
+    position: relative;
+    bottom: 62px;
+    left: 70px;  
+}
+
+.LineOne hr{
+    position: relative;
+    bottom: 75px;
+}
+
+.LineOne {
+    height: 33px;
+}
+.LineTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 50px;
+}
+
+main .Line {
+    width: 50px;
+}
+
+main .Line p {
+padding: 3px;
+}
+

@@ -1,0 +1,13 @@
+@media only screen  and (max-width:320px) {
+
+    
+    #FirstPost {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+}
+
+
+
